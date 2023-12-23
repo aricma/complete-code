@@ -1,0 +1,28 @@
+- smaller MRs let developers review code better -> which leads to better comprehensibility -> which leads to more remarks/threads/comments -> which leads to better code
+- Is clean code a burden? Can people even write good code?
+- Is clean code even necessary when AI is writing the code in the future?
+- This was a great talk about simple code https://www.youtube.com/watch?v=SxdOUGdseq4
+- Once code is in master you will not change it by looking at the next MRs. Because, for each MR you only look at the diff. You will not make big architecture or refactoring decision since you only look at a fraction of the code. Therefore with committed code we have technical debt that will not get changed unless we decide to look at it again.
+- We can let our software show the intent and clean our architecture by working around our use cases of the software not the framework.
+- Here Dave Thomas is talking how agile development can be monazite without to much risk on either side of the parties: https://youtu.be/zNvmjPzdqKc?si=aF2nPQ8bWLPVs1B7&t=2000. This could help building a business model around the idea of an agile developer team getting paid for writing code. Without delivering crappy software or not getting paid enough. 👍
+- The done manifesto is very much like agile https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13
+- Scrum is a tool
+- OO is not for modeling the real world: https://www.youtube.com/shorts/mlY47CJj3iE
+- About Dikstra and proving software: https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLdpsE-GEhYVn_81kDPo1mwE73UgYCeMLu&index=1&t=5961s
+- The death of Js: https://www.youtube.com/watch?v=lc5Np9OqDHU
+- A talk about what is engineering, if software engineering is like other fields of engineering: https://www.youtube.com/watch?v=CmIGPGPdxTI
+- An art video about the paradox of agile as it developed from being the solution to becoming just a new problem(scrum): https://www.youtube.com/watch?v=Bez7wmAsxjE
+- The c4 model looks like an interesting way to design and architect software: https://c4model.com
+- C4 Models are now available in the mermaid syntax 🎉
+- A good talk about when to use micro services: https://www.youtube.com/watch?v=GBTdnfD6s5Q
+- A crazy cool talk about a speaking programming language to code via voice: https://www.youtube.com/watch?v=NcUJnmBqHTY 
+- "Building Observability for 99% Developers" by Jean Yang (Strange Loop 2022)(https://www.youtube.com/watch?v=UJA4PGKny2k) is a great talk about the vast complexity of modern software systems and she is talking about her tool Akita(https://www.akitasoftware.com) to look at network traffic of systems in production. From there Akita is mapping the landscape of used apis and endpoints. A step towards observability of large software systems that use a lot of apis and (third party)endpoints.
+- This is a great talk about the possible future of distributed computation: https://www.youtube.com/watch?v=Z5U8JQZXABs&list=TLPQMjUxMTIwMjOTKW1RSQsOtQ&index=2
+- This is a great explanation for full homomorphic encryption: https://brilliant.org/wiki/homomorphic-encryption/#:~:text=Homomorphic%20encryption%20is%20a%20cryptographic,to%20obtain%20the%20desired%20output.
+- Zero-Knowledge-Proof is an interesting solution mostly applied in cryptocurrencies. It allows for a verifier to proof the work of a prover without any knowledge about the work or the result of the prover.
+- Here is a link to the ISO 25000 - **_System and Software Quality Requirements and Evaluation (SQuaRE)_ series of standards** : https://iso25000.com/index.php/en/
+- Here is a talk that claims that a software architect is not a single person but everybody is. The team is solving problems and the architecture is developing as a result: https://www.youtube.com/watch?v=v_nhv6aY1Kg
+- This is a very good talk about how agile is helping teams to deliver not managers to manage(https://www.youtube.com/watch?v=F4b_MckXea0). It explains some if the biggest problems with agile in big companies and how to deal with them. fyi the sound quality is really bad
+- Here is a great talk from the creators of code scene about technical debt and how to find the most pressing and impactful refactoring tickets in any code base(https://www.youtube.com/watch?v=fl4aZ2KXBsQ)
+- This video from IBM re-introduces the FIDO auth method from 2018 and presents it as a way to do authentication without passwords. This is amazing and has a lot of potential. However the big flaw with this method is that you can not login from a different device then the one that you used to register. Since apple stores all auth related keys in the KeyChainAccess app which is sync with the icloud and replicated across all owned devices this might not be an issues for apple users. But what about non apple users and what if you get a new laptop that is not from apple? https://www.youtube.com/watch?v=lRFeuSH9t44
+- 
