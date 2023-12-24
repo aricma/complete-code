@@ -1,3 +1,4 @@
+![The Art Of Writing Code Wallpaper](__images__/the-art-of-writing-code-wallpaper.jpg)
 # About The Art Of Writing Code
 
 This is a collection of learnings and resources about writing code, engineering software, architecting systems, and
