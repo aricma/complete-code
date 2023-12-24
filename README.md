@@ -1,4 +1,4 @@
-![Wallpaper](wallpaper.jpg)
+![Wallpaper](./src/__images__/the-art-of-writing-code-wallpaper.jpg)
 
 # The Art Of Writing Code
 
